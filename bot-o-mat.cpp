@@ -17,12 +17,9 @@ int main()
     int R_count, task_ID;
     
     cout << "Welcome to Bot-o-mat!" << endl;
-    
-    // DisplayLeaderboard() if file !empty show leaderboard
-    
-    
     cout << "How many bots will you create today?" << endl;
     cin >> R_count;
+    
     if(R_count == 0)
     {return 0;}
     
